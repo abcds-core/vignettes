@@ -1,0 +1,13 @@
+# Data Processing
+
+**Preparing and Merging ABC-DS data**  
+
+- Importing data into R 
+- Importing data into Python 
+- Cleaning and standardizing data 
+- Missing data and missing data codes 
+- Reshaping Data 
+- Preparing Data for merging 
+- Merging data in R 
+- Merging data in Python 
+- Checking merged datasets  

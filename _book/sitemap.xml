@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://r4ds.hadley.nz/introduction.html</loc>
+    <lastmod>2026-08-14T02:42:30.653Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.hadley.nz/data-structure.html</loc>
+    <lastmod>2026-08-14T02:47:07.609Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.hadley.nz/processing.html</loc>
+    <lastmod>2026-08-14T02:46:33.464Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.hadley.nz/analysis.html</loc>
+    <lastmod>2026-08-14T02:57:19.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.hadley.nz/longitudinal.html</loc>
+    <lastmod>2026-08-14T02:57:44.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.hadley.nz/biomarkers.html</loc>
+    <lastmod>2026-08-14T02:57:38.256Z</lastmod>
+  </url>
+  <url>
+    <loc>https://r4ds.hadley.nz/problems.html</loc>
+    <lastmod>2026-08-14T03:09:47.482Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abcds-core.github.io/vignettes/longitudinal.html</loc>
+    <lastmod>2026-08-14T02:57:44.728Z</lastmod>
+  </url>
+</urlset>

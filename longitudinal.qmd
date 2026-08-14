@@ -1,0 +1,6 @@
+## Longitudinal Data Analysis Examples
+
+- Linear mixed-effects models 
+- Including site as a random effect 
+- Adjusting for common covariates 
+- Longitudinal analysis example 

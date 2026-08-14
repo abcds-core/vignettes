@@ -1,0 +1,10 @@
+# Data Structure
+
+**Understanding ABC-DS Data Structure**
+
+- Participants, visits, and timepoints 
+- Participant and visit identifiers 
+- Long vs. wide data 
+- Different types of ABC-DS datasets 
+- Understanding common ABC-DS data files 
+- Common data structure considerations 

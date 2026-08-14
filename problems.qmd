@@ -1,0 +1,9 @@
+# Common Problems
+
+**Common Problems and “Things to Watch For”** 
+
+- Missing or unexpected data 
+- Duplicate records 
+- Unexpected sample sizes after merging 
+- Different numbers of visits across participants 
+- Variables with similar names or meanings

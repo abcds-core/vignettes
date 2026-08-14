@@ -1,0 +1,55 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "ABC-DS Vignettes"
+
+  page-footer:
+    left: |
+      ABC-DS Vignettes is a Collection of Information and Tutorials
+      on How to Work with the Data.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  cover-image: abcds.png
+  favicon: abcds.png
+  site-url: https://abcds-core.github.io/vignettes
+  repo-url: https://github.com/abcds-core/vignettes/
+  repo-branch: main
+
+  
+  date: "8/7/2026"
+  chapters:
+    - index.qmd
+    - introduction.qmd
+    - part: data-structure.qmd
+      chapters:
+        - processing.qmd
+    - part: analysis.qmd
+      chapters:
+        - longitudinal.qmd
+        - biomarkers.qmd
+    - problems.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      dark:
+        - darkly
+        - brand
+        - custom.scss
+      light:
+        - cosmo
+        - brand
+        - custom.scss
+    code-link: true
+
+    author-meta: "Brian C. Helsel and Julianne G. Clina"
+    callout-appearance: simple
+
+editor: source
+
+
+
