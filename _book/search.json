@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ABC-DS Vignettes",
+    "section": "",
+    "text": "1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
     "objectID": "introduction.html",
     "href": "introduction.html",
     "title": "2  Introduction",
@@ -80,16 +90,6 @@
     "text": "Common Problems and “Things to Watch For”\n\nMissing or unexpected data\nDuplicate records\nUnexpected sample sizes after merging\nDifferent numbers of visits across participants\nVariables with similar names or meanings",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Common Problems</span>"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ABC-DS Vignettes",
-    "section": "",
-    "text": "1 Introduction",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   }
 ]
