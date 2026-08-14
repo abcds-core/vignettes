@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://abcds-core.github.io/vignettes/introduction.html</loc>
+    <lastmod>2026-08-14T03:15:59.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abcds-core.github.io/vignettes/data-structure.html</loc>
+    <lastmod>2026-08-14T03:15:59.557Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abcds-core.github.io/vignettes/processing.html</loc>
+    <lastmod>2026-08-14T03:15:59.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abcds-core.github.io/vignettes/analysis.html</loc>
+    <lastmod>2026-08-14T03:15:59.557Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abcds-core.github.io/vignettes/longitudinal.html</loc>
+    <lastmod>2026-08-14T03:15:59.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abcds-core.github.io/vignettes/biomarkers.html</loc>
+    <lastmod>2026-08-14T03:15:59.557Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abcds-core.github.io/vignettes/problems.html</loc>
+    <lastmod>2026-08-14T03:15:59.558Z</lastmod>
+  </url>
+</urlset>

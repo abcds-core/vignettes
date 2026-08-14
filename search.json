@@ -1,0 +1,95 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ABC-DS Vignettes",
+    "section": "",
+    "text": "1 Introduction",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "Overview and Purpose \n\nABC-DS Data Overview\nWhat is ABC-DS\nHow is data collected\nData organization and Releases\nUnderstanding data dictionaries and codebooks\nNavigating LONI and downloading data",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "data-structure.html",
+    "href": "data-structure.html",
+    "title": "Data Structure",
+    "section": "",
+    "text": "Understanding ABC-DS Data Structure\n\nParticipants, visits, and timepoints\nParticipant and visit identifiers\nLong vs. wide data\nDifferent types of ABC-DS datasets\nUnderstanding common ABC-DS data files\nCommon data structure considerations",
+    "crumbs": [
+      "Data Structure"
+    ]
+  },
+  {
+    "objectID": "processing.html",
+    "href": "processing.html",
+    "title": "3  Data Processing",
+    "section": "",
+    "text": "Preparing and Merging ABC-DS data\n\nImporting data into R\nImporting data into Python\nCleaning and standardizing data\nMissing data and missing data codes\nReshaping Data\nPreparing Data for merging\nMerging data in R\nMerging data in Python\nChecking merged datasets",
+    "crumbs": [
+      "Data Structure",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data Processing</span>"
+    ]
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Data Analysis",
+    "section": "",
+    "text": "Common Analysis Considerations",
+    "crumbs": [
+      "Data Analysis"
+    ]
+  },
+  {
+    "objectID": "analysis.html#common-analysis-considerations",
+    "href": "analysis.html#common-analysis-considerations",
+    "title": "Data Analysis",
+    "section": "",
+    "text": "Defining the analysis sample\nCross-sectional vs. longitudinal analyses\nRepeated observations and visits\nAccounting for study site\nSelecting covariates\nCommon statistical models\nCommon analysis considerations for biomarkers and other outcomes\nMultiple comparisons and sensitivity analyses",
+    "crumbs": [
+      "Data Analysis"
+    ]
+  },
+  {
+    "objectID": "longitudinal.html",
+    "href": "longitudinal.html",
+    "title": "4  Longitudinal Data Analysis Examples",
+    "section": "",
+    "text": "Linear mixed-effects models\nIncluding site as a random effect\nAdjusting for common covariates\nLongitudinal analysis example",
+    "crumbs": [
+      "Data Analysis",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Longitudinal Data Analysis Examples</span>"
+    ]
+  },
+  {
+    "objectID": "biomarkers.html",
+    "href": "biomarkers.html",
+    "title": "5  Biomarker Data Analysis Examples",
+    "section": "",
+    "text": "Biomarker analysis example",
+    "crumbs": [
+      "Data Analysis",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Biomarker Data Analysis Examples</span>"
+    ]
+  },
+  {
+    "objectID": "problems.html",
+    "href": "problems.html",
+    "title": "6  Common Problems",
+    "section": "",
+    "text": "Common Problems and “Things to Watch For”\n\nMissing or unexpected data\nDuplicate records\nUnexpected sample sizes after merging\nDifferent numbers of visits across participants\nVariables with similar names or meanings",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Common Problems</span>"
+    ]
+  }
+]
