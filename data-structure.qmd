@@ -1,6 +1,43 @@
 # Data Structure
 
 **Understanding ABC-DS Data Structure**
+# Data Structure
+
+**Understanding ABC-DS Data Structure**
+Understanding Study Cycles
+
+ABC-DS is a longitudinal study in which participants return for repeated assessments approximately every 16 months. In the ABC-DS data, the variable Cycle identifies the study visit or assessment cycle associated with a record.
+
+Cycle 1: The participant's initial study visit (baseline).
+Cycle 2: The first follow-up assessment.
+Cycle 3: The second follow-up assessment.
+Cycle 4 and subsequent cycles: Later follow-up assessments, when available.
+
+Not every participant will have completed the same number of cycles, and not every measure is necessarily collected during every cycle. The availability of data therefore depends on both the participant and the specific assessment or measure.
+
+Why does Cycle matter?
+
+When comparing or combining variables from different files, it is important to ensure that the observations correspond to the same study cycle when your research question requires measurements from the same assessment period.
+
+For example, suppose you want to examine the relationship between a cognitive score and a blood-based biomarker. If the cognitive score comes from Cycle 1 and the biomarker comes from Cycle 2, those measurements represent different assessment periods. Combining them without considering the cycle could lead to an incorrect interpretation of the relationship between the measures.
+
+Before merging files or comparing variables, check:
+
+- Whether the variables refer to the same participant.
+- Whether the observations correspond to the same CYCLE, when appropriate.
+- Whether both measures were collected or are available during that cycle.
+- Whether the variables have compatible definitions and measurement procedures across cycles.
+
+In many analyses, participant identifiers alone are not sufficient to link records correctly. When the data contain repeated observations, the participant identifier and CYCLE may both be needed to identify the corresponding records.
+
+Important: Do not assume that every variable is available at every cycle or that every file has the same structure. Review the relevant data dictionary and file documentation to determine how records should be linked. Some research questions may intentionally examine relationships between measurements from different cycles, but these comparisons should be planned and interpreted accordingly.
+
+- Participants, visits, and timepoints 
+- Participant and visit identifiers 
+- Long vs. wide data 
+- Different types of ABC-DS datasets 
+- Understanding common ABC-DS data files 
+- Common data structure considerations 
 
 - Participants, visits, and timepoints 
 - Participant and visit identifiers 
