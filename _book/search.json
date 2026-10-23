@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "ABC-DS Vignettes",
     "section": "",
-    "text": "1 Introduction",
+    "text": "1 Welcome",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
     ]
   },
   {
@@ -14,7 +14,77 @@
     "href": "introduction.html",
     "title": "2  Introduction",
     "section": "",
-    "text": "Overview and Purpose \n\nABC-DS Data Overview\nWhat is ABC-DS\nHow is data collected\nData organization and Releases\nUnderstanding data dictionaries and codebooks\nNavigating LONI and downloading data",
+    "text": "2.1 Overview and Purpose\nThe Alzheimer’s Biomarkers Consortium–Down Syndrome (ABC-DS) is a longitudinal research study focused on understanding the development and progression of Alzheimer’s disease (AD) in adults with Down syndrome (DS). The study collects clinical, cognitive, neuroimaging, biomarker, and other research data to characterize changes associated with AD and identify factors that may influence disease progression.\nABC-DS data are made available to approved researchers through the Laboratory of Neuro Imaging (LONI) Image and Data Archive (IDA). Because the study includes multiple types of data collected across research sites and repeated visits, understanding how the data are organized is an important first step before beginning an analysis.\nThis guide provides a practical introduction to accessing, navigating, and working with ABC-DS data through LONI. It is intended for researchers who are new to the dataset or who need a reference for locating and interpreting study files.\nThe guide covers the following topics:\nBy the end of this guide, users should be better equipped to locate relevant data, understand the contents of downloaded files, and identify the documentation needed to prepare ABC-DS data for analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#overview-and-purpose",
+    "href": "introduction.html#overview-and-purpose",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "Background and history of ABC-DS.\nStudy design and data collection procedures.\nData organization, freezes, and upload dates.\nUnderstanding data dictionaries and codebooks.\nNavigating LONI and downloading data.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#what-is-abc-ds",
+    "href": "introduction.html#what-is-abc-ds",
+    "title": "2  Introduction",
+    "section": "2.2 What is ABC-DS",
+    "text": "2.2 What is ABC-DS\nABC-DS is a multisite, longitudinal research study involving participants recruited and assessed at research sites across the United States and the United Kingdom. Data are collected through a coordinated study protocol that includes clinical and cognitive assessments, neuroimaging, biological sample collection, and other research measures.\nThe study is longitudinal, meaning participants return for repeated assessments over time. Participants are invited to complete follow-up visits approximately every 16 months, allowing researchers to examine changes in cognition, clinical characteristics, biomarkers, and other outcomes as participants age.\nBecause data are collected across multiple sites and repeated visits, the resulting dataset includes information from different participants, assessment time points, and types of research procedures. Individual measures may be stored in separate files, and not every participant will necessarily have data available for every measure or visit.\nWhen working with ABC-DS data, it is important to consider: - Demographic and clinical data: Participant characteristics, medical history, and clinical assessments. - Cognitive and functional assessments: Measures of cognition and other outcomes used to characterize changes in functioning. - Neuroimaging data: Imaging acquisitions and derived measures used to assess brain structure and pathology. - Biomarker data: Measures from biological samples that may help characterize Alzheimer’s disease-related processes. - Additional research measures: Other assessments or derived variables collected as part of the study.\nThe availability of specific measures, variables, and files depends on the data release and applicable access permissions. Researchers should consult the documentation accompanying each release to determine which data are available and how individual measures are defined.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#history-of-abc-ds",
+    "href": "introduction.html#history-of-abc-ds",
+    "title": "2  Introduction",
+    "section": "2.3 History of ABC-DS",
+    "text": "2.3 History of ABC-DS\nABC-DS began in 2015 as two coordinated research programs funded through separate National Institutes of Health (NIH) awards:\n\nNeurodegeneration in Aging Down Syndrome (NiAD): NIH award U01AG051406.\nAlzheimer’s Disease in Down Syndrome (ADDS): NIH award U01AG051412.\n\nThese programs brought together research teams investigating Alzheimer’s disease biomarkers and disease progression in adults with DS. Although funded separately, the teams collaborated toward shared scientific goals.\nIn September 2020, the continuation of this work was funded through a single, integrated consortium award, U19AG068054, supported by the National Institute on Aging (NIA), the Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD), and the NIH INCLUDE Project.\nThis integrated effort continued the collaborative, multisite longitudinal study and expanded the availability of harmonized research data. Today, ABC-DS provides a comprehensive resource for investigating clinical, cognitive, neuroimaging, and biomarker changes associated with Alzheimer’s disease in adults with DS.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#how-is-data-collected",
+    "href": "introduction.html#how-is-data-collected",
+    "title": "2  Introduction",
+    "section": "2.4 How is data collected",
+    "text": "2.4 How is data collected\nABC-DS data are collected through a coordinated research protocol involving participating study sites and repeated assessments of participants over time. Study visits may include clinical and cognitive evaluations, neuroimaging, biological sample collection, and other research procedures.\nBecause the study is longitudinal and includes multiple assessment types, data are not necessarily organized into a single file or a single record per participant. Different measures may be stored in separate files, collected at different visits, or represented at different levels of detail. For example, a participant may have multiple clinical assessments across visits and multiple imaging acquisitions associated with a given assessment period.\nWhen preparing an analysis, researchers should consider:\n\nParticipant identifiers: How participants are identified across files and data types.\nVisit information: How assessment visits or time points are recorded and linked.\nData type and structure: Whether a file contains participant-level characteristics, visit-level assessments, individual measurements, imaging data, or derived variables.\nMissing data: Whether a measure was not collected, is unavailable for a particular visit, or is otherwise missing.\nStudy documentation: Whether variable definitions, collection procedures, and processing methods are documented for the relevant measure.\n\nUnderstanding these features helps researchers determine how files should be linked and which observations are appropriate for a particular research question.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#data-organization-and-releases",
+    "href": "introduction.html#data-organization-and-releases",
+    "title": "2  Introduction",
+    "section": "2.5 Data organization and Releases",
+    "text": "2.5 Data organization and Releases\nABC-DS data are uploaded to the Laboratory of Neuro Imaging (LONI) Image and Data Archive in batches called freezes. A freeze is a batch of study data that has undergone review and is uploaded to LONI together. Rather than all study data becoming available at once, additional data may be uploaded as subsequent freezes are prepared and released.\nEach freeze represents a batch of data made available for researchers to access. The contents may include data from different participants, visits, assessments, or research measures, depending on what has been reviewed and prepared for that upload.\nOn the LONI webpage, the upload date for a particular dataset or freeze is documented as “Version: YYYY-MM-DD.” This date helps researchers identify when the data were uploaded and distinguish between data versions that may be available on the platform.\nWhen accessing ABC-DS data, keep the following considerations in mind:\n\nRelease version: Record which release was used for your project.\nFile organization: Determine which files contain the measures relevant to your research question.\nRelated files: Identify files that may need to be linked to create an analysis dataset.\nUpdates and revisions: Check whether a newer release changes variable definitions, data availability, or previously distributed values.\nReproducibility: Retain the original downloaded files and document any data cleaning, exclusions, transformations, or merges.\n\nIt is good practice to maintain a record of the release, download date, filenames, and relevant documentation used in an analysis. This information helps ensure that analyses can be reproduced and that collaborators are working from compatible data. The “Version” date on LONI identifies the upload date documented for the data. It should not automatically be interpreted as the date the data were collected or as the date of a participant’s study visit. Always consult the accompanying documentation to understand the contents of a particular data file or freeze.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#understanding-data-dictionaries-and-codebooks",
+    "href": "introduction.html#understanding-data-dictionaries-and-codebooks",
+    "title": "2  Introduction",
+    "section": "2.6 Understanding data dictionaries and codebooks",
+    "text": "2.6 Understanding data dictionaries and codebooks\nData dictionaries and codebooks are essential resources for interpreting ABC-DS data. They describe the variables contained in a dataset and provide information needed to use those variables appropriately.\nDepending on the file and release, documentation may include:\n\nVariable names: The names used to identify variables in data files.\nVariable descriptions: Explanations of what each variable represents.\nData types and formats: Whether a variable is numeric, character, categorical, or stored in another format.\nValue labels and coding: Definitions of category codes, response options, or other coded values.\nMissing-value conventions: How missing, unavailable, or inapplicable values are represented.\nUnits and measurement details: Units, scoring procedures, or other information needed to interpret a measure.\nFile and visit information: Details that clarify how records relate to participants, visits, or other study observations.\n\nDo not assume that a variable name alone provides enough information to interpret a measure. For example, a categorical variable may use numeric codes that are not meaningful without its corresponding value labels. Similarly, a cognitive score may require documentation of its scoring range, direction, or administration procedures.\nBefore analyzing a variable, review its definition and coding in the documentation for the relevant data file. When merging files, also confirm that participant identifiers, assessment timing, and other linking fields have consistent meanings across datasets. If information is missing or unclear, consult the study documentation or the appropriate data support contact rather than assuming how a variable should be interpreted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#navigating-loni-and-downloading-data",
+    "href": "introduction.html#navigating-loni-and-downloading-data",
+    "title": "2  Introduction",
+    "section": "2.7 Navigating LONI and downloading data",
+    "text": "2.7 Navigating LONI and downloading data\nThe LONI Image and Data Archive (IDA) is the platform through which approved researchers can access ABC-DS study data. Access requires completion of the study’s data request process and approval in accordance with applicable data-use requirements.\nThe general process involves locating the ABC-DS study, identifying the relevant data files and freeze, reviewing the associated documentation, and downloading the files needed for a research project.\n\n2.7.1 Accessing ABC-DS Through LONI\nBefore downloading data, confirm that you have the appropriate access permissions and can sign in to LONI.\nResearchers seeking access should complete the ABC-DS Data Request and follow the study’s data access requirements. The process includes submitting a data request, reviewing and signing the ABC-DS Data Use Agreement, and obtaining the required approval.\nOnce access has been granted, use the LONI platform to locate the ABC-DS study and its available data.\n\n\n2.7.2 Locating and Selecting Data\nWhen navigating the ABC-DS files in LONI:\n\nLocate the ABC-DS study. Navigate to the study within LONI after signing in.\nReview available data. Examine the available file listings and descriptions to identify relevant data types and datasets.\nCheck the version date. Review the “Version: YYYY-MM-DD” date displayed on the webpage.\nIdentify relevant files. Determine which files contain the variables or measures needed for your research question.\nLocate supporting documentation. Identify the associated data dictionaries, codebooks, and other documentation before downloading files.\n\nA research question may require information from multiple files. For example, examining the relationship between a cognitive measure and a blood-based biomarker may require downloading the cognitive assessment data and the relevant biomarker data separately. Before downloading, review the documentation to confirm that the selected files contain the appropriate measures and observations.\n\n\n2.7.3 Downloading and Organizing Files\nAfter identifying the necessary files, download them using the available LONI download options.\nFor reproducibility, organize the downloaded data in a consistent project directory. Preserve the original filenames and keep supporting documentation with the corresponding data files.\nIt is good practice to:\n\nRetain an unchanged copy of the original downloaded files.\nRecord the download date and the documented LONI version date.\nKeep data dictionaries and codebooks alongside the relevant datasets.\nStore analysis-ready data separately from original downloaded files.\nDocument any file conversions, data cleaning, exclusions, transformations, and merges.\n\nThese practices help ensure that analyses can be reproduced and that collaborators are working from compatible data.\nThe remainder of this guide provides additional instructions and examples for working with downloaded ABC-DS files, understanding their structure, and preparing data for analysis.\nImportant: ABC-DS data are subject to applicable access permissions, data-use agreements, and study policies. Researchers should follow all requirements associated with their approved access and consult the official study documentation for the most current information about data availability and use.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -24,7 +94,7 @@
     "href": "data-structure.html",
     "title": "Data Structure",
     "section": "",
-    "text": "Understanding ABC-DS Data Structure\n\nParticipants, visits, and timepoints\nParticipant and visit identifiers\nLong vs. wide data\nDifferent types of ABC-DS datasets\nUnderstanding common ABC-DS data files\nCommon data structure considerations",
+    "text": "Understanding ABC-DS Data Structure # Data Structure\nUnderstanding ABC-DS Data Structure Understanding Study Cycles\nABC-DS is a longitudinal study in which participants return for repeated assessments approximately every 16 months. In the ABC-DS data, the variable Cycle identifies the study visit or assessment cycle associated with a record.\nCycle 1: The participant’s initial study visit (baseline). Cycle 2: The first follow-up assessment. Cycle 3: The second follow-up assessment. Cycle 4 and subsequent cycles: Later follow-up assessments, when available.\nNot every participant will have completed the same number of cycles, and not every measure is necessarily collected during every cycle. The availability of data therefore depends on both the participant and the specific assessment or measure.\nWhy does Cycle matter?\nWhen comparing or combining variables from different files, it is important to ensure that the observations correspond to the same study cycle when your research question requires measurements from the same assessment period.\nFor example, suppose you want to examine the relationship between a cognitive score and a blood-based biomarker. If the cognitive score comes from Cycle 1 and the biomarker comes from Cycle 2, those measurements represent different assessment periods. Combining them without considering the cycle could lead to an incorrect interpretation of the relationship between the measures.\nBefore merging files or comparing variables, check:\n\nWhether the variables refer to the same participant.\nWhether the observations correspond to the same CYCLE, when appropriate.\nWhether both measures were collected or are available during that cycle.\nWhether the variables have compatible definitions and measurement procedures across cycles.\n\nIn many analyses, participant identifiers alone are not sufficient to link records correctly. When the data contain repeated observations, the participant identifier and CYCLE may both be needed to identify the corresponding records.\nImportant: Do not assume that every variable is available at every cycle or that every file has the same structure. Review the relevant data dictionary and file documentation to determine how records should be linked. Some research questions may intentionally examine relationships between measurements from different cycles, but these comparisons should be planned and interpreted accordingly.\n\nParticipants, visits, and timepoints\nParticipant and visit identifiers\nLong vs. wide data\nDifferent types of ABC-DS datasets\nUnderstanding common ABC-DS data files\nCommon data structure considerations\nParticipants, visits, and timepoints\nParticipant and visit identifiers\nLong vs. wide data\nDifferent types of ABC-DS datasets\nUnderstanding common ABC-DS data files\nCommon data structure considerations",
     "crumbs": [
       "Data Structure"
     ]
