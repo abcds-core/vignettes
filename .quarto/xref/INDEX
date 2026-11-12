@@ -31,5 +31,14 @@
   },
   "problems.qmd": {
     "problems.html": "e43f6254"
+  },
+  "data-collection.qmd": {
+    "data-collection.html": "bb404de1"
+  },
+  "sections/introduction/data-collection.qmd": {
+    "data-collection.html": "e074da70"
+  },
+  "sections/introduction/data-access.qmd": {
+    "data-access.html": "e28fdc68"
   }
 }

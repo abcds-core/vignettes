@@ -7,8 +7,7 @@ book:
 
   page-footer:
     left: |
-      ABC-DS Vignettes is a Collection of Information and Tutorials
-      on How to Work with the Data.
+      A Collection of Information and Tutorials on How to Work with the Data.
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   cover-image: abcds.png
@@ -20,8 +19,11 @@ book:
   
   date: "8/7/2026"
   chapters:
-    - index.qmd
-    - introduction.qmd
+    - part: "Welcome"
+      chapters: 
+      - index.qmd
+      - sections/introduction/data-collection.qmd
+      - sections/introduction/data-access.qmd
     - part: data-structure.qmd
       chapters:
         - processing.qmd

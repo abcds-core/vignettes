@@ -1,0 +1,105 @@
+## Data Collection
+
+## How is data collected 
+
+ABC-DS data are collected through a coordinated research protocol involving
+participating study sites and repeated assessments of participants over time.
+Study visits may include clinical and cognitive evaluations, neuroimaging,
+biological sample collection, and other research procedures.
+
+Because the study is longitudinal and includes multiple assessment types, data
+are not necessarily organized into a single file or a single record per
+participant. Different measures may be stored in separate files, collected at
+different visits, or represented at different levels of detail. For example, a
+participant may have multiple clinical assessments across visits and multiple
+imaging acquisitions associated with a given assessment period.
+
+When preparing an analysis, researchers should consider:
+
+- **Participant identifiers:** How participants are identified across files and data types.
+- **Visit information:** How assessment visits or time points are recorded and linked.
+- **Data type and structure:** Whether a file contains participant-level
+characteristics, visit-level assessments, individual measurements, imaging data,
+or derived variables.
+- **Missing data:** Whether a measure was not collected, is unavailable for a
+particular visit, or is otherwise missing.
+- **Study documentation:** Whether variable definitions, collection procedures,
+and processing methods are documented for the relevant measure.
+
+Understanding these features helps researchers determine how files should be
+linked and which observations are appropriate for a particular research
+question.
+
+## Data organization and Releases 
+
+ABC-DS data are uploaded to the Laboratory of Neuro Imaging (LONI) Image and
+Data Archive in batches called freezes. A freeze is a batch of study data that
+has undergone review and is uploaded to LONI together. Rather than all study
+data becoming available at once, additional data may be uploaded as subsequent
+freezes are prepared and released.
+
+Each freeze represents a batch of data made available for researchers to access.
+The contents may include data from different participants, visits, assessments,
+or research measures, depending on what has been reviewed and prepared for that
+upload.
+
+On the LONI webpage, the upload date for a particular dataset or freeze is
+documented as “Version: YYYY-MM-DD.” This date helps researchers identify when
+the data were uploaded and distinguish between data versions that may be
+available on the platform.
+
+When accessing ABC-DS data, keep the following considerations in mind:
+
+- **Release version:** Record which release was used for your project.
+- **File organization:** Determine which files contain the measures relevant to
+your research question.
+- **Related files:** Identify files that may need to be linked to create an
+analysis dataset.
+- **Updates and revisions:** Check whether a newer release changes variable
+definitions, data availability, or previously distributed values.
+- **Reproducibility:** Retain the original downloaded files and document any
+data cleaning, exclusions, transformations, or merges.
+
+It is good practice to maintain a record of the release, download date,
+filenames, and relevant documentation used in an analysis. This information
+helps ensure that analyses can be reproduced and that collaborators are working
+from compatible data. The “Version” date on LONI identifies the upload date
+documented for the data. It should not automatically be interpreted as the date
+the data were collected or as the date of a participant's study visit. Always
+consult the accompanying documentation to understand the contents of a
+particular data file or freeze.
+
+## Understanding data dictionaries and codebooks
+
+Data dictionaries and codebooks are essential resources for interpreting ABC-DS
+data. They describe the variables contained in a dataset and provide information
+needed to use those variables appropriately.
+
+Depending on the file and release, documentation may include:
+
+- **Variable names:** The names used to identify variables in data files.
+- **Variable descriptions:** Explanations of what each variable represents.
+- **Data types and formats:** Whether a variable is numeric, character,
+categorical, or stored in another format.
+- **Value labels and coding:** Definitions of category codes, response options,
+or other coded values.
+- **Missing-value conventions:** How missing, unavailable, or inapplicable
+values are represented.
+- **Units and measurement details:** Units, scoring procedures, or other
+information needed to interpret a measure.
+- **File and visit information:** Details that clarify how records relate to
+participants, visits, or other study observations.
+
+Do not assume that a variable name alone provides enough information to
+interpret a measure. For example, a categorical variable may use numeric codes
+that are not meaningful without its corresponding value labels. Similarly, a
+cognitive score may require documentation of its scoring range, direction, or
+administration procedures.
+
+Before analyzing a variable, review its definition and coding in the
+documentation for the relevant data file. When merging files, also confirm that
+participant identifiers, assessment timing, and other linking fields have
+consistent meanings across datasets. If information is missing or unclear,
+consult the study documentation or the appropriate data support contact rather
+than assuming how a variable should be interpreted.
+

@@ -1,0 +1,81 @@
+# Data Access
+
+## Navigating LONI and downloading data 
+
+The LONI Image and Data Archive (IDA) is the platform through which approved
+researchers can access ABC-DS study data. Access requires completion of the
+study's data request process and approval in accordance with applicable data-use
+requirements.
+
+The general process involves locating the ABC-DS study, identifying the relevant
+data files and freeze, reviewing the associated documentation, and downloading
+the files needed for a research project.
+
+### Accessing ABC-DS Through LONI
+
+Before downloading data, confirm that you have the appropriate access
+permissions and can sign in to LONI.
+
+Researchers seeking access should complete the [ABC-DS Data
+Request](https://abc-ds.org/researchers/) and follow the study's data access
+requirements. The process includes submitting a data request, reviewing and
+signing the ABC-DS Data Use Agreement, and obtaining the required approval.
+
+Once access has been granted, use the LONI platform to locate the ABC-DS study
+and its available data.
+
+### Locating and Selecting Data
+
+When navigating the ABC-DS files in LONI:
+
+1. Locate the ABC-DS study. Navigate to the study within LONI after signing in.
+2. Review available data. Examine the available file listings and descriptions
+to identify relevant data types and datasets.
+3. Check the version date. Review the "Version: YYYY-MM-DD" date displayed on
+the webpage.
+4. Identify relevant files. Determine which files contain the variables or
+measures needed for your research question.
+5. Locate supporting documentation. Identify the associated data dictionaries,
+codebooks, and other documentation before downloading files.
+
+A research question may require information from multiple files. For example,
+examining the relationship between a cognitive measure and a blood-based
+biomarker may require downloading the cognitive assessment data and the relevant
+biomarker data separately. Before downloading, review the documentation to
+confirm that the selected files contain the appropriate measures and
+observations.
+
+### Downloading and Organizing Files
+
+After identifying the necessary files, download them using the available LONI
+download options.
+
+For reproducibility, organize the downloaded data in a consistent project
+directory. Preserve the original filenames and keep supporting documentation
+with the corresponding data files.
+
+It is good practice to:
+
+- Retain an unchanged copy of the original downloaded files.
+- Record the download date and the documented LONI version date.
+- Keep data dictionaries and codebooks alongside the relevant datasets.
+- Store analysis-ready data separately from original downloaded files.
+- Document any file conversions, data cleaning, exclusions, transformations, and
+merges.
+
+These practices help ensure that analyses can be reproduced and that
+collaborators are working from compatible data.
+
+The remainder of this guide provides additional instructions and examples for
+working with downloaded ABC-DS files, understanding their structure, and
+preparing data for analysis.
+
+Important: ABC-DS data are subject to applicable access permissions, data-use
+agreements, and study policies. Researchers should follow all requirements
+associated with their approved access and consult the official study
+documentation for the most current information about data availability and use.
+
+
+
+
+

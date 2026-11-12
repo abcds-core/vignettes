@@ -1,1 +1,91 @@
-# Welcome
+# Introduction
+
+The Alzheimer's Biomarkers Consortium–Down Syndrome (ABC-DS) is a longitudinal
+research study focused on understanding the development and progression of
+Alzheimer's disease (AD) in adults with Down syndrome (DS). The study collects
+clinical, cognitive, neuroimaging, biomarker, and other research data to
+characterize changes associated with AD and identify factors that may influence
+disease progression.
+
+ABC-DS data are made available to approved researchers through the Laboratory of
+Neuro Imaging (LONI) Image and Data Archive (IDA). Because the study includes
+multiple types of data collected across research sites and repeated visits,
+understanding how the data are organized is an important first step before
+beginning an analysis.
+
+This guide provides a practical introduction to accessing, navigating, and
+working with the ABC-DS data. It is intended for researchers who are new to the
+dataset, external to ABC-DS, or who need a reference for locating, interpreting,
+and processing study files.
+
+The guide covers the following topics:
+
+- A background and history of ABC-DS.
+- Study design and data collection procedures.
+- Data organization, freezes, and upload dates.
+- Understanding data dictionaries and codebooks.
+- Navigating LONI and downloading data.
+
+By the end of this guide, users should be better equipped to locate relevant
+data, understand the contents of downloaded files, and identify the
+documentation needed to prepare ABC-DS data for analysis.
+
+## What is ABC-DS
+
+ABC-DS is a multisite, longitudinal research study involving participants
+recruited and assessed at research sites across the United States and the United
+Kingdom. Data are collected through a coordinated study protocol that includes
+clinical and cognitive assessments, neuroimaging, biological sample collection,
+and other research measures.
+
+The study is longitudinal, meaning participants return for repeated assessments
+over time. Participants are invited to complete follow-up visits approximately
+every 16 months, allowing researchers to examine changes in cognition, clinical
+characteristics, biomarkers, and other outcomes as participants age.
+
+Because data are collected across multiple sites and repeated visits, the
+resulting dataset includes information from different participants, assessment
+time points, and types of research procedures. Individual measures may be stored
+in separate files, and not every participant will necessarily have data
+available for every measure or visit.
+
+When working with ABC-DS data, it is important to consider:
+
+- **Demographic and clinical data:** Participant characteristics, medical
+history, and clinical assessments.
+- **Cognitive and functional assessments:** Measures of cognition and other
+outcomes used to characterize changes in functioning.
+- **Neuroimaging data:** Imaging acquisitions and derived measures used to
+assess brain structure and pathology.
+- **Biomarker data:** Measures from biological samples that may help
+characterize Alzheimer's disease-related processes.
+- **Additional research measures:** Other assessments or derived variables
+collected as part of the study.
+
+The availability of specific measures, variables, and files depends on the data
+release and applicable access permissions. Researchers should consult the
+documentation accompanying each release to determine which data are available
+and how individual measures are defined.
+
+## History of ABC-DS
+
+ABC-DS began in 2015 as two coordinated research programs funded through
+separate National Institutes of Health (NIH) awards:
+
+- Neurodegeneration in Aging Down Syndrome (NiAD): NIH award U01AG051406.
+- Alzheimer's Disease in Down Syndrome (ADDS): NIH award U01AG051412.
+
+These programs brought together research teams investigating Alzheimer's disease
+biomarkers and disease progression in adults with DS. Although funded
+separately, the teams collaborated toward shared scientific goals.
+
+In September 2020, the continuation of this work was funded through a single,
+integrated consortium award, U19AG068054, supported by the National Institute on
+Aging (NIA), the Eunice Kennedy Shriver National Institute of Child Health and
+Human Development (NICHD), and the NIH INCLUDE Project.
+
+This integrated effort continued the collaborative, multisite longitudinal study
+and expanded the availability of harmonized research data. Today, ABC-DS
+provides a comprehensive resource for investigating clinical, cognitive,
+neuroimaging, and biomarker changes associated with Alzheimer's disease in
+adults with DS.
